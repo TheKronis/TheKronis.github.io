@@ -1,1 +1,3 @@
 charles.mislead.dev
+
+RewriteRule ^$ index.html [R=301,L]
