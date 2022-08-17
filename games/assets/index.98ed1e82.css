@@ -41,7 +41,7 @@ html {
 main>h1 {
 	margin-bottom: 0;
 	font-family: Roboto Mono, monospace;
-	font-size: 3.5vw;
+	font-size: 2.5vw;
 }
 
 main>p {
@@ -63,9 +63,9 @@ main>p {
 .App>main>div>img {
 	cursor: pointer;
 	display: flex;
-	margin-top: 30px;
-	width: 24vw;
-	height: 24vw;
+	margin-top: 10px;
+	width: 23vw;
+	height: 23vw;
 	transition-duration: 80ms
 }
 
@@ -83,13 +83,13 @@ main {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 50px;
-    padding-top: 75px;
+    padding-top: 15px;
 }
 
 .Upgrade {
 	display: flex;
-	height: 13vw;
-	width: 13vw;
+	height: 11vw;
+	width: 11vw;
 	justify-content: center;
 	flex-direction: row;
 	text-align: center
@@ -108,8 +108,8 @@ a:hover {
 .Upgrade>.Button {
 	display: flex;
 	position: relative;
-	height: 13vw;
-	width: 13vw;
+	height: 11vw;
+	width: 11vw;
 }
 
 .Upgrade>p {
@@ -117,10 +117,11 @@ a:hover {
 	position: absolute;
 	align-self: flex-end;
 	margin-bottom: 20px;
+	font-size: 0.8vw;
 }
 
 .Upgrade>h1 {
-	font-size: 15px;
+	font-size: 0.8vw;
 	align-self: start;
     margin-top: 20px;
 	display: flex;
